@@ -9,6 +9,6 @@
   --colAccent: var(--purpleA200);
   --headerFooterColor: var(--blue-gray700);
   --headerFooterColorDk: var(--blue-gray800);
-  --headColor: hsl(75, 100%, 22%);
+  --headColor: #88b500;
   --textColor: var(--blue-gray800);
 }

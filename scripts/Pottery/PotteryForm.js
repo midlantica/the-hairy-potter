@@ -1,13 +1,7 @@
-// Drew Harper
-// Pottery Form for submitting a Pottery article
-// Contains eventListener for Submitting Pottery form
-// Renders form
-// eventHandler xOut for closing Pottery Form
-
-import { savePottery } from './PotteryProvider.js'
+import { savePottery } from './potteryProvider.js'
 
 const eventHub = document.querySelector('.container')
-const contentTarget = document.querySelector('.potteryForm')
+const contentTarget = document.querySelector('.pottery')
 
 // Handle browser-generated click event in component
 eventHub.addEventListener('click', (clickEvent) => {
@@ -27,18 +21,13 @@ eventHub.addEventListener('click', (clickEvent) => {
 
     // Change API state and application state
     savePottery(newPottery)
-    contentTarget.classList.add('hide')
   }
 })
 
 const render = () => {
-  const contentTarget = document.querySelector('.potteryForm')
-
-  return `
+  contentTarget.innerHTML += `
     <div class="formWrap">
       <div class="dh-Form panel fadeBackground marB1">
-
-        <div id="xOut" class="xOut">X</div>
 
         <label for="name">Name</label>
         <input type="text" id="name">
@@ -57,16 +46,6 @@ const render = () => {
     </div>
   `
 }
-
-eventHub.addEventListener('click', (clickEvent) => {
-  if (clickEvent.target.id === 'xOut') {
-    const contentTarget = document.querySelector('.PotteryForm')
-    contentTarget.classList.add('hide')
-  }
-})
-
 export const PotteryForm = () => {
-  const contentTarget = document.querySelector('.PotteryForm')
-
-  contentTarget.innerHTML = render()
+  render()
 }

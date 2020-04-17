@@ -1,0 +1,39 @@
+{
+  "pottery": [
+    {
+      "id": 481,
+      "name": "Pot #1",
+      "shape": "Amphora",
+      "weight": "12",
+      "height": "20"
+    },
+    {
+      "id": 169,
+      "name": "Pot #2",
+      "shape": "Alabastron",
+      "weight": "2",
+      "height": "20"
+    },
+    {
+      "id": 584,
+      "name": "Pot #3",
+      "shape": "Amphora",
+      "weight": "5",
+      "height": "20"
+    },
+    {
+      "id": 486,
+      "name": "Pot #4",
+      "shape": "Krater",
+      "weight": "8",
+      "height": "205"
+    },
+    {
+      "name": "ssssss",
+      "shape": "sssssss",
+      "weight": "55",
+      "height": "5",
+      "id": 585
+    }
+  ]
+}
