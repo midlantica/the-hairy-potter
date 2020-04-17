@@ -26,8 +26,9 @@ eventHub.addEventListener('click', (clickEvent) => {
 
 const render = () => {
   contentTarget.innerHTML += `
-    <div class="formWrap">
-      <div class="dh-Form panel fadeBackground marB1">
+    <div class="potteryForm formWrap">
+      <div class="dh-Form box fadeBackground marB1">
+        <h3>Pottery Form</h3>
 
         <label for="name">Name</label>
         <input type="text" id="name">
