@@ -1,0 +1,14 @@
+:root {
+  /* MAIN COLORS */
+  --black: hsl(190, 100%, 5%);
+  --white: hsl(0, 0%, 96%);
+  /*  */
+  --colPrimary: var(--limeA700);
+  --colSecondary: var(--limeA400);
+  --colTertiary: var(--limeA200);
+  --colAccent: var(--purpleA200);
+  --headerFooterColor: var(--blue-gray700);
+  --headerFooterColorDk: var(--blue-gray800);
+  --headColor: hsl(75, 100%, 22%);
+  --textColor: var(--blue-gray800);
+}
